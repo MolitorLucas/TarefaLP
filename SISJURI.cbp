@@ -35,6 +35,8 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/Advogado.h" />
+		<Unit filename="include/Processo.h" />
+		<Unit filename="include/TipoProcesso.h" />
 		<Unit filename="include/Vara.h" />
 		<Unit filename="main.cpp" />
 		<Extensions>

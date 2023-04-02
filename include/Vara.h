@@ -23,6 +23,8 @@ class Vara
         void setAdvogado(Advogado advogado) { this->advogado = advogado; }
         void setJuiz(string juiz) { this->juiz = juiz; }
         void setValorCausa(float valorCausa) { this->valorCausa = valorCausa; }
+        void aumentar( double aumento ) { this->valorCausa += aumento; }
+        void aumentar( int porcentagem  ) { this->valorCausa += this->valorCausa*porcentagem/100; }
 
         void imprimir();
 
