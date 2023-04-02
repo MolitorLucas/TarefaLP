@@ -1,4 +1,4 @@
-#include<string>
+
 class Vara
 {
     private:
@@ -28,7 +28,7 @@ class Vara
 
 };
 
-  void imprimir() {
+  void Vara::imprimir() {
     cout << "IMPRIMIR VARA\n";
     cout << "ID: " << this->id << endl;
     cout << "PROCESSO: " << endl;
@@ -37,4 +37,5 @@ class Vara
     this->advogado.imprimir();
     cout << "JUIZ: " << this->juiz << endl;
     cout << "VALOR DA CAUSA: " << this->valorCausa << endl;
-    }
+    cout << "-------" << endl;
+}

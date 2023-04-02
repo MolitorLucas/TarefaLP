@@ -1,13 +1,13 @@
 #include <iostream>
-#include <string>
 #include<iomanip>
 
+using namespace std;
+
 #include "Advogado.h"
-#include "Processo.h"
 #include "TipoProcesso.h"
+#include "Processo.h"
 #include "Vara.h"
 
-using namespace std;
 
 int main() {
     Advogado advogado(1, "Almir", "Assis", "SP", 35);
@@ -42,8 +42,8 @@ int main() {
     processo2.setDescricao("Processo Criminal");
     processo2.setDataEntrada("01/04/2023");
     processo2.setHoraEntrada("08:30");
-    processo2.setTipoId(tipoProcesso2.getId());
-    processo2.setTipoDesc(tipoProcesso2.getDescricao());
+    processo2.TipoProcesso::setId(tipoProcesso2.getId());
+    processo2.TipoProcesso::setDescricao(tipoProcesso2.getDescricao());
     processo2.imprimir();
 
     Vara vara2;

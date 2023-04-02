@@ -1,4 +1,4 @@
-#include<string>
+
 class TipoProcesso {
 
     private:
@@ -21,4 +21,5 @@ void TipoProcesso::imprimir(){
     cout << "IMPRIMIR TIPO_PROCESSO\n";
     cout << "ID: " << this->id << endl;
     cout << "DESCRICAO: " << this->descricao << endl;
+    cout << "-------" << endl;
 }

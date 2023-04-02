@@ -1,4 +1,3 @@
-#include<string>
 
 class Advogado {
 
@@ -44,6 +43,7 @@ void Advogado::imprimir() {
     cout << "CIDADE: " << this->cidade << endl;
     cout << "ESTADO: " << this->estado << endl;
     cout << "IDADE: " << this->idade << endl;
+    cout << "-------" << endl;
 }
 
 

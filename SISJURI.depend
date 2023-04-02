@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1680394422 source:c:\users\seunome\documents\coisas de escola\fema\disciplinas\bcc2\lp\sisjuri\sisjuri\main.cpp
+	<iostream>
+	<iomanip>
+	"Advogado.h"
+	"TipoProcesso.h"
+	"Processo.h"
+	"Vara.h"
+
+1680394468 c:\users\seunome\documents\coisas de escola\fema\disciplinas\bcc2\lp\sisjuri\sisjuri\include\advogado.h
+
+1680394454 c:\users\seunome\documents\coisas de escola\fema\disciplinas\bcc2\lp\sisjuri\sisjuri\include\tipoprocesso.h
+
+1680394464 c:\users\seunome\documents\coisas de escola\fema\disciplinas\bcc2\lp\sisjuri\sisjuri\include\processo.h
+
+1680394471 c:\users\seunome\documents\coisas de escola\fema\disciplinas\bcc2\lp\sisjuri\sisjuri\include\vara.h
+

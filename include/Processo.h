@@ -1,6 +1,5 @@
-#include<string>
-class Processo: public TipoProcesso
-{
+
+class Processo : public TipoProcesso {
     private:
         int id;
         string descricao;
@@ -31,6 +30,7 @@ void Processo::imprimir(){
     cout << "DESCRICAO: " << this->descricao << endl;
     cout << "DATA_ENTRADA: " << this->dataEntrada << endl;
     cout << "HORA_ENTRADA: " << this->horaEntrada << endl;
-    cout << "TIPO_PROCESSO: ";
+    cout << "TIPO_PROCESSO: " << endl;
     TipoProcesso::imprimir();
+    cout << "-------" << endl;
 }
